@@ -1,0 +1,26 @@
+{
+  "projects": {
+    "default": "localpulse-prod"
+  },
+  "targets": {},
+  "hosting": [
+    {
+      "target": "localpulse",
+      "public": "public",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "runtime": "nodejs20"
+    }
+  ]
+}
