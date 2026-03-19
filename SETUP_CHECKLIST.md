@@ -29,8 +29,8 @@
 
 - [ ] **Create environment files**
   ```bash
-  cp .env.example .env
-  cp functions/.env.example functions/.env
+  cp .env .env
+  cp functions/.env functions/.env
   ```
 
 ## ✅ Phase 2: Firebase Setup

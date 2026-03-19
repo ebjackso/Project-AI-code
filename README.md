@@ -32,8 +32,8 @@ npm install
 cd functions && npm install && cd ..
 
 # Create .env file
-cp .env.example .env
-cp functions/.env.example functions/.env
+cp .env .env
+cp functions/.env functions/.env
 ```
 
 ### 2. Configure Firebase
